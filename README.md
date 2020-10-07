@@ -1,2 +1,2 @@
-# Algorithms-and-data-structures
+# Algorithms
 General algorithms and data structures

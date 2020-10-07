@@ -20,7 +20,7 @@ def factorize(n: int) -> tuple:  # O(n**0.5)
             if i != 0:
                 powers += [i]
 
-    # if one prime is left (example: for n = 6)
+    # if one prime multiple is left (example: for n = 6)
     if n != 1 and len(mults) != 0:
         mults += [n]
         powers += [1]

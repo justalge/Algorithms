@@ -1,4 +1,12 @@
-def factorize(n):  # O(n**0.5)
+def factorize(n: int) -> tuple:  # O(n**0.5)
+    """
+    Factorize n into prime multiples.
+    Gets natural number n > 1.
+    O(n**0.5)
+    """
+
+    assert n > 1, 'Invalid input'
+
     mults = []
     powers = []
     for mult in range(2, int(n**0.5)+1):
@@ -31,7 +39,7 @@ def euler(n: int) -> int:
     O(n**0.5)
     """
 
-    assert n > 0, "Your input is not natural number"
+    assert n > 0, 'Your input is not natural number'
 
     if n == 1:
         return 1
